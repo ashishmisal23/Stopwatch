@@ -85,13 +85,17 @@ const Stopwatch = () => {
                 <div className='container half' id="laps">
                     <h2 align="center">LAPS</h2>
                     <ul>
-                        {laps.map((lap, index) => {
-                            console.log(lap)
-                            return(
-                                <li key={index}>{lap}</li>
+                        {
+                            laps.length <= 0 ? (
+                                <li style={{listStyleType:"none"}}>No Record</li>
+                            ) : (
+                                laps.map((lap, index) => (
+                                    <li key={index}>{lap}</li>
+                                ))
                             )
-                        })}
+                        }
                     </ul>
+
                 </div>
 
             </div>
