@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer style={FooterStyle}>
       <p>&copy; 2024 Stopwatch. All rights reserved.</p>
-      <p>Made with by ❤️: <Link to="https://github.com/ashishmisal23" style={{color:"white"}}>Ashish Misal</Link ></p>
+      <p>Made with by ❤️: <Link to="https://github.com/ashishmisal23" style={{ color: "white" }}>Ashish Misal</Link ></p>
     </footer>
   )
 }
