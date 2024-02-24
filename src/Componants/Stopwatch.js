@@ -60,13 +60,11 @@ const Stopwatch = () => {
     };
 
     return (
-        <>
+        <div id='container-main'>
+
             <h1 style={{ fontSize: "50px", paddingBottom: "20px" }}>Stop Watch</h1>
-
             <div className="stopwatch-container">
-
-
-                <div className='container half scrollable-div' id='container'>
+                <div className='container half' id='container'>
                     <div id="time">
                         <span className="digit" id="hr">{hour < 10 ? '0' + hour : hour}</span>
                         <span className="txt">Hr</span>
@@ -97,7 +95,7 @@ const Stopwatch = () => {
                 </div>
 
             </div>
-        </>
+        </div>
     );
 }
 
