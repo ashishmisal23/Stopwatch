@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 const Stopwatch = () => {
 
     const [hour, setHour] = useState(0);
@@ -60,18 +61,17 @@ const Stopwatch = () => {
     };
 
     return (
-        <div id='container-main'>
-
-            <h1 style={{ fontSize: "50px", paddingBottom: "20px" }}>Stop Watch</h1>
-            <div className="stopwatch-container">
-                <div className='container half' id='container'>
+        <div className='container' id='container-main'>
+            <h1>Stop Watch</h1>
+            <div className="stopwatch-container container">
+                <div className='half' id='sw-container'>
                     <div id="time">
                         <span className="digit" id="hr">{hour < 10 ? '0' + hour : hour}</span>
-                        <span className="txt">Hr</span>
+                        <span className="txt">Hr </span>
                         <span className="digit" id="min">{minute < 10 ? '0' + minute : minute}</span>
-                        <span className="txt">Min</span>
+                        <span className="txt">Min </span>
                         <span className="digit" id="sec">{second < 10 ? '0' + second : second}</span>
-                        <span className="txt">Sec</span>
+                        <span className="txt">Sec </span>
                         <span className="digit" id="count">{count < 10 ? '0' + count : count}</span>
                     </div>
                     <div id="buttons">
@@ -81,13 +81,12 @@ const Stopwatch = () => {
                         <button className="btn" id="lap" onClick={lapTimer}>Lap</button>
                     </div>
                 </div>
-
-                <div className='container half' id="laps">
+                <div className='half' id="laps">
                     <h2 align="center">LAPS</h2>
                     <ul>
                         {
                             laps.length <= 0 ? (
-                                <li style={{listStyleType:"none"}}>No Record</li>
+                                <li style={{ listStyleType: "none" }}>No Record</li>
                             ) : (
                                 laps.map((lap, index) => (
                                     <li key={index}>{lap}</li>

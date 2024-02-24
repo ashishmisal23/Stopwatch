@@ -36,10 +36,10 @@ const About = () => {
       <p>Our online stopwatch is designed to be easy to use, with intuitive controls and clear display. Whether you need to time an activity, track your workouts, or manage your tasks, our stopwatch is here to help.</p>
       <p>Key features of Online Stopwatch:</p>
       <ul>
-        <li>Start, stop, and reset functionality</li>
-        <li>Accurate timing with milliseconds precision</li>
-        <li>Customizable display options</li>
-        <li>User-friendly interface for seamless experience</li>
+        <li> <p>Start, stop, and reset functionality</p></li>
+        <li><p>Accurate timing with milliseconds precision</p></li>
+        <li><p>Customizable display options</p></li>
+        <li><p>User-friendly interface for seamless experience</p></li>
       </ul>
       <p>Stopwatch is perfect for individuals, athletes, coaches, teachers, and anyone who needs a reliable timer for their activities.
         It's completely free to use and accessible from any device with an internet connection.</p>
