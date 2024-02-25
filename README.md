@@ -2,7 +2,7 @@
 
 This is a simple stopwatch web page built using React.js. It allows users to start, stop, reset and lap the stopwatch.
 
-Live at: https://stopwatch-ashishmisal.vercel.app/
+Live at: <a href="https://stopwatch-ashishmisal.vercel.app/" target="_blank">https://stopwatch-ashishmisal.vercel.app/ </a>
 
 ## Features
 
@@ -21,12 +21,12 @@ Live at: https://stopwatch-ashishmisal.vercel.app/
 
 - Node.js
   ```sh
-  # Install Node.js from https://nodejs.org/
+  # Install Node.js from <a href="https://nodejs.org/">https://nodejs.org/</a>
 
 ### Installation
 
 1. Clone the repo
-    git clone https://github.com/ashishmisal23/Stopwatch.git
+    git clone <a href="https://github.com/ashishmisal23/Stopwatch.git">https://github.com/ashishmisal23/Stopwatch.git</a>
 
 2. Navigate to the project directory
     cd Stopwatch
