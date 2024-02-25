@@ -10,17 +10,25 @@ const Header = () => {
         <Navbar expand="lg" className="bg-primary-tertiary text-white">
             <Container>
                 <Navbar.Brand>
-                    <Link to="/" style={{ textDecoration: "none", color: "white" }}>Stop Watch </Link>
+                    <Link to="/" style={{ textDecoration: "none", color: "white" }}>Stop Watch</Link>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link> <Link to="/" style={{ textDecoration: "none", color: "white" }}>Home </Link></Nav.Link>
-                        <Nav.Link><Link to="/about" style={{ textDecoration: "none", color: "white" }}>About </Link></Nav.Link>
+                        <Nav.Link style={{ color: "white" }}>
+                            <Link to="/" style={{ textDecoration: "none", color: "white" }}>Home</Link>
+                        </Nav.Link>
+                        <Nav.Link style={{ color: "white" }}>
+                            <Link to="/about" style={{ textDecoration: "none", color: "white" }}>About</Link>
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+
+
+
+
     );
 }
 

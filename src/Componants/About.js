@@ -32,18 +32,18 @@ const About = () => {
         <img src={watch} alt="Stop Watch Face" style={imgContainerStyle} />
       </div>
       <h1>Welcome to <span style={{ color: "yellow", textShadow: '0px 0px 10px red' }}>Stopwatch</span>  </h1 >
-      <h3>your simple and efficient tool for timekeeping!</h3>
+      <h3>Your Simple and Efficient Tool for Timekeeping!</h3>
       <p>Our online stopwatch is designed to be easy to use, with intuitive controls and clear display. Whether you need to time an activity, track your workouts, or manage your tasks, our stopwatch is here to help.</p>
       <p>Key features of Online Stopwatch:</p>
       <ul>
-        <li> <p>Start, stop, and reset functionality</p></li>
-        <li><p>Accurate timing with milliseconds precision</p></li>
-        <li><p>Customizable display options</p></li>
-        <li><p>User-friendly interface for seamless experience</p></li>
+        <li>Start, stop, reset and Lap functionality</li>
+        <li>Accurate timing with milliseconds precision</li>
+        <li>Customizable display options</li>
+        <li>User-friendly interface for seamless experience</li>
       </ul>
       <p>Stopwatch is perfect for individuals, athletes, coaches, teachers, and anyone who needs a reliable timer for their activities.
         It's completely free to use and accessible from any device with an internet connection.</p>
-      <p>Thank you for choosing Online Stopwatch. If you have any feedback or suggestions, feel free
+      <p>Thank you for choosing Stopwatch. If you have any feedback or suggestions, feel free
         to <Link to="mailto:ashishmisal23@gmail.com" target='_blank'>contact us</Link>.</p>
     </div>
   )
