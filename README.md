@@ -21,7 +21,7 @@ Live at: <a href="https://stopwatch-ashishmisal.vercel.app/" target="_blank">htt
 
 - Node.js
   ```sh
-  # Install Node.js from <a href="https://nodejs.org/">https://nodejs.org/</a>
+  # Install Node.js from https://nodejs.org/
 
 ### Installation
 
